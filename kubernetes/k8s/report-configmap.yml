@@ -6,3 +6,7 @@ metadata:
 data:
   TEXT1: my-kafka.kafka.svc.cluster.local:9092
   TEXT2: Welcome
+  ORDER: 879772956301.dkr.ecr.ap-northeast-2.amazonaws.com/user01-order:2
+  PRODUCT: 879772956301.dkr.ecr.ap-northeast-2.amazonaws.com/user01-product:2
+  REPORT: 879772956301.dkr.ecr.ap-northeast-2.amazonaws.com/user01-report:2
+  GATEWAY: 879772956301.dkr.ecr.ap-northeast-2.amazonaws.com/user01-gateway:2
