@@ -7,4 +7,4 @@ data:
   TEXT1: my-kafka.kafka.svc.cluster.local:9092
   TEXT2: Welcome
   NS: siren
-  HYSTRIX: false
+  PORT: '8080'
