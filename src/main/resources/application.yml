@@ -25,10 +25,10 @@ spring:
       bindings:
         event-in:
           group: report
-          destination: siren
+          destination: ${NS} #siren
           contentType: application/json
         event-out:
-          destination: siren
+          destination: ${NS} #siren
           contentType: application/json
 
 logging:

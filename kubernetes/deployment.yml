@@ -21,7 +21,7 @@ spec:
       #      claimName: efs-claim
       containers:
         - name: report
-          image: ${REPORT} #535015453674.dkr.ecr.ap-northeast-2.amazonaws.com/report:2
+          image: 879772956301.dkr.ecr.ap-northeast-2.amazonaws.com/user01-report:2
           ports:
             - containerPort: 8080
           envFrom:
